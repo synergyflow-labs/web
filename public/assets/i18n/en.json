@@ -1,0 +1,109 @@
+{
+  "APP": {
+    "TITLE": {
+      "PREFIX": "Modern Angular - "
+    }
+  },
+  "DEFAULT": {
+    "PAGE": {
+      "TITLE": "Home",
+      "DESCRIPTION": "Modern, scalable Angular 21 starter application template."
+    }
+  },
+  "NAV": {
+    "DASHBOARD": "Dashboard",
+    "ITEMS": "Manage Items",
+    "SETTINGS": "Settings",
+    "LOGIN": "Sign In",
+    "LOGOUT": "Sign Out"
+  },
+  "COMMON": {
+    "BRAND_NAME": "ModernAngular",
+    "LANGUAGE": "Language",
+    "SELECT_LANGUAGE": "Select Language",
+    "SAVE": "Save",
+    "SAVING": "Saving...",
+    "CANCEL": "Cancel",
+    "DELETE": "Delete",
+    "DELETING": "Deleting...",
+    "EDIT": "Edit",
+    "ADD": "Add",
+    "SEARCH": "Search...",
+    "STATUS": "Status",
+    "ACTIONS": "Actions",
+    "CONFIRM": "Confirm",
+    "CLOSE_MENU": "Close navigation menu",
+    "OPEN_MENU": "Open navigation menu",
+    "TO_CONFIRM_TYPE": "To confirm this action, please type",
+    "CONFIRM_PHRASE_PLACEHOLDER": "Type phrase here...",
+    "BELOW_COLON": "below:",
+    "BACK": "Back",
+    "NEXT": "Next",
+    "PREVIOUS": "Previous",
+    "SUBMIT": "Submit",
+    "REQUIRED": "This field is required",
+    "LOADING": "Loading...",
+    "NO_DATA": "No records found",
+    "YES": "Yes",
+    "NO": "No",
+    "PAGE_NOT_FOUND": "Page Not Found",
+    "GO_BACK_HOME": "Return to Dashboard",
+    "RETRY": "Retry Action",
+    "LOADING_CHART": "Loading Chart Data..."
+  },
+  "AUTH": {
+    "WELCOME_BACK": "Welcome Back",
+    "LOGIN_SUBTITLE": "Please sign in to access your dashboard",
+    "EMAIL_LABEL": "Email Address",
+    "EMAIL_PLACEHOLDER": "name@example.com",
+    "PASSWORD_LABEL": "Password",
+    "PASSWORD_PLACEHOLDER": "Enter your password",
+    "LOGIN_BUTTON": "Sign In",
+    "SELECT_ROLE": "Select Role",
+    "DEMO_NOTE": "Quick Demo Credentials",
+    "REVEAL_PASSWORDS": "Show password",
+    "HIDE_PASSWORDS": "Hide password",
+    "EMAIL_REQUIRED": "Email address is required",
+    "PASSWORD_REQUIRED": "Password is required",
+    "VALID_EMAIL": "Please enter a valid email address",
+    "LOGIN_SUCCESS": "Successfully logged in",
+    "INVALID_CREDENTIALS": "Invalid email or password"
+  },
+  "DASHBOARD": {
+    "TITLE": "Analytical Dashboard",
+    "SUBTITLE": "Real-time overview of key metrics, performance, and trends",
+    "TOTAL_USERS": "Total Users",
+    "TOTAL_REVENUE": "Total Revenue",
+    "ACTIVE_PROJECTS": "Active Projects",
+    "CONVERSION_RATE": "Conversion Rate",
+    "MONTHLY_TRENDS": "Monthly Revenue & Expenses",
+    "CATEGORY_DISTRIBUTION": "Distribution by Category",
+    "RECENT_ACTIVITIES": "Recent System Activities"
+  },
+  "ITEMS": {
+    "TITLE": "Items Management",
+    "SUBTITLE": "Enterprise CRUD example powered by NgRx SignalStore",
+    "ADD_ITEM": "Add New Item",
+    "EDIT_ITEM": "Edit Item",
+    "DELETE_ITEM": "Delete Item",
+    "DELETE_CONFIRMATION": "This action cannot be undone. Are you sure you want to delete this item?",
+    "NAME": "Item Name",
+    "CATEGORY": "Category",
+    "PRICE": "Price",
+    "STOCK": "Stock Quantity",
+    "DESCRIPTION": "Description",
+    "NAME_REQUIRED": "Item name is required (min 2 characters)",
+    "CATEGORY_REQUIRED": "Category is required",
+    "PRICE_REQUIRED": "Price must be a valid positive amount"
+  },
+  "SETTINGS": {
+    "TITLE": "Preferences & Settings",
+    "SUBTITLE": "Manage your profile, theme, and language preferences",
+    "PROFILE_SETTINGS": "Profile Information",
+    "LANGUAGE_AND_REGION": "Language & Localization",
+    "THEME_PREFERENCES": "Appearance",
+    "DARK_MODE": "Dark Mode",
+    "NOTIFICATION_PREFERENCES": "Notifications",
+    "SAVE_PREFERENCES": "Save Changes"
+  }
+}

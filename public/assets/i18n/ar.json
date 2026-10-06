@@ -1,0 +1,109 @@
+{
+  "APP": {
+    "TITLE": {
+      "PREFIX": "مودرن أنجولار - "
+    }
+  },
+  "DEFAULT": {
+    "PAGE": {
+      "TITLE": "الرئيسية",
+      "DESCRIPTION": "قالب مشروع أنجولار 21 حديث وقابل للتوسع للمؤسسات."
+    }
+  },
+  "NAV": {
+    "DASHBOARD": "لوحة التحكم",
+    "ITEMS": "إدارة العناصر",
+    "SETTINGS": "الإعدادات",
+    "LOGIN": "تسجيل الدخول",
+    "LOGOUT": "تسجيل الخروج"
+  },
+  "COMMON": {
+    "BRAND_NAME": "مودرن أنجولار",
+    "LANGUAGE": "اللغة",
+    "SELECT_LANGUAGE": "اختر اللغة",
+    "SAVE": "حفظ",
+    "SAVING": "جارٍ الحفظ...",
+    "CANCEL": "إلغاء",
+    "DELETE": "حذف",
+    "DELETING": "جارٍ الحذف...",
+    "EDIT": "تعديل",
+    "ADD": "إضافة",
+    "SEARCH": "بحث...",
+    "STATUS": "الحالة",
+    "ACTIONS": "الإجراءات",
+    "CONFIRM": "تأكيد",
+    "CLOSE_MENU": "إغلاق القائمة",
+    "OPEN_MENU": "فتح القائمة",
+    "TO_CONFIRM_TYPE": "لتأكيد هذا الإجراء، يرجى كتابة",
+    "CONFIRM_PHRASE_PLACEHOLDER": "اكتب العبارة هنا...",
+    "BELOW_COLON": "أدناه:",
+    "BACK": "رجوع",
+    "NEXT": "التالي",
+    "PREVIOUS": "السابق",
+    "SUBMIT": "إرسال",
+    "REQUIRED": "هذا الحقل مطلوب",
+    "LOADING": "جارٍ التحميل...",
+    "NO_DATA": "لا توجد سجلات",
+    "YES": "نعم",
+    "NO": "لا",
+    "PAGE_NOT_FOUND": "الصفحة غير موجودة",
+    "GO_BACK_HOME": "العودة للوحة التحكم",
+    "RETRY": "إعادة المحاولة",
+    "LOADING_CHART": "جارٍ تحميل الرسم البياني..."
+  },
+  "AUTH": {
+    "WELCOME_BACK": "مرحبًا بعودتك",
+    "LOGIN_SUBTITLE": "يرجى تسجيل الدخول للوصول إلى لوحة التحكم",
+    "EMAIL_LABEL": "البريد الإلكتروني",
+    "EMAIL_PLACEHOLDER": "name@example.com",
+    "PASSWORD_LABEL": "كلمة المرور",
+    "PASSWORD_PLACEHOLDER": "أدخل كلمة المرور",
+    "LOGIN_BUTTON": "تسجيل الدخول",
+    "SELECT_ROLE": "اختر الدور",
+    "DEMO_NOTE": "بيانات الدخول التجريبية",
+    "REVEAL_PASSWORDS": "إظهار كلمة المرور",
+    "HIDE_PASSWORDS": "إخفاء كلمة المرور",
+    "EMAIL_REQUIRED": "البريد الإلكتروني مطلوب",
+    "PASSWORD_REQUIRED": "كلمة المرور مطلوبة",
+    "VALID_EMAIL": "يرجى إدخال بريد إلكتروني صحيح",
+    "LOGIN_SUCCESS": "تم تسجيل الدخول بنجاح",
+    "INVALID_CREDENTIALS": "البريد الإلكتروني أو كلمة المرور غير صحيحة"
+  },
+  "DASHBOARD": {
+    "TITLE": "لوحة التحليلات",
+    "SUBTITLE": "نظرة عامة فورية على المؤشرات والأداء والاتجاهات",
+    "TOTAL_USERS": "إجمالي المستخدمين",
+    "TOTAL_REVENUE": "إجمالي الإيرادات",
+    "ACTIVE_PROJECTS": "المشاريع النشطة",
+    "CONVERSION_RATE": "معدل التحويل",
+    "MONTHLY_TRENDS": "الإيرادات والمصروفات الشهرية",
+    "CATEGORY_DISTRIBUTION": "التوزيع حسب الفئة",
+    "RECENT_ACTIVITIES": "أحدث أنشطة النظام"
+  },
+  "ITEMS": {
+    "TITLE": "إدارة العناصر",
+    "SUBTITLE": "نموذج عمليات متكامل مبني باستخدام NgRx SignalStore",
+    "ADD_ITEM": "إضافة عنصر جديد",
+    "EDIT_ITEM": "تعديل العنصر",
+    "DELETE_ITEM": "حذف العنصر",
+    "DELETE_CONFIRMATION": "لا يمكن التراجع عن هذا الإجراء. هل أنت متأكد من حذف هذا العنصر؟",
+    "NAME": "اسم العنصر",
+    "CATEGORY": "الفئة",
+    "PRICE": "السعر",
+    "STOCK": "الكمية المتوفرة",
+    "DESCRIPTION": "الوصف",
+    "NAME_REQUIRED": "اسم العنصر مطلوب (حرفان على الأقل)",
+    "CATEGORY_REQUIRED": "الفئة مطلوبة",
+    "PRICE_REQUIRED": "يجب إدخال سعر موجب وصحيح"
+  },
+  "SETTINGS": {
+    "TITLE": "التفضيلات والإعدادات",
+    "SUBTITLE": "إدارة الملف الشخصي والمظهر واللغة",
+    "PROFILE_SETTINGS": "معلومات الملف الشخصي",
+    "LANGUAGE_AND_REGION": "اللغة والمنطقة",
+    "THEME_PREFERENCES": "المظهر",
+    "DARK_MODE": "الوضع الداكن",
+    "NOTIFICATION_PREFERENCES": "الإشعارات",
+    "SAVE_PREFERENCES": "حفظ التغييرات"
+  }
+}

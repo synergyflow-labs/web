@@ -1,0 +1,77 @@
+.modal-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.modal-header h3 {
+  color: var(--clr-gray-800);
+  font-size: var(--fs-500);
+  font-weight: 600;
+}
+
+.modal-warning-icon {
+  font-size: 1.25rem;
+}
+
+.modal-warning-icon.danger {
+  color: var(--clr-red-600);
+}
+
+.modal-warning-icon.info {
+  color: var(--clr-cyan-700);
+}
+
+.modal-warning-icon.success {
+  color: var(--clr-green-600);
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.modal-warning-text {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-md);
+  font-size: var(--fs-300);
+  line-height: 1.5;
+}
+
+.modal-warning-text.danger {
+  border: 1px solid var(--clr-red-200);
+  background-color: var(--clr-red-50);
+  color: var(--clr-red-800);
+}
+
+.modal-warning-text.info {
+  border: 1px solid var(--clr-cyan-200);
+  background-color: var(--clr-cyan-50);
+  color: var(--clr-cyan-700);
+}
+
+.modal-warning-text.success {
+  border: 1px solid var(--clr-green-200);
+  background-color: var(--clr-green-50);
+  color: var(--clr-green-800);
+}
+
+.modal-instruction {
+  color: var(--clr-gray-650);
+  font-size: var(--fs-300);
+}
+
+.modal-confirm-input {
+  width: 100%;
+}
+
+.modal-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.75rem;
+}

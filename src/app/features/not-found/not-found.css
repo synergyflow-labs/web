@@ -1,0 +1,36 @@
+:host {
+  display: block;
+}
+
+.not-found-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.25rem;
+  min-height: 70vh;
+  padding: 2rem;
+  text-align: center;
+}
+
+.error-code {
+  background: var(--gradient-main);
+  font-size: 6rem;
+  font-weight: 800;
+  font-family: var(--ff-heading), sans-serif;
+  line-height: 1;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.error-title {
+  color: var(--clr-gray-800);
+  font-size: var(--fs-700);
+  font-weight: 700;
+}
+
+.error-desc {
+  max-width: 28rem;
+  color: var(--clr-gray-600);
+  font-size: var(--fs-400);
+}

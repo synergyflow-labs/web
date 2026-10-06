@@ -1,0 +1,126 @@
+:host {
+  display: block;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.875rem 1.5rem;
+  background-color: var(--clr-white);
+  border-bottom: 1px solid var(--clr-gray-200);
+}
+
+.top-bar__left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.menu-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  padding: 0;
+  border: 1px solid var(--clr-gray-250);
+  border-radius: var(--radius-sm);
+  background: var(--clr-white);
+  color: var(--clr-gray-800);
+  font-size: 1.125rem;
+  cursor: pointer;
+}
+
+.menu-toggle:hover {
+  background-color: var(--clr-gray-100);
+}
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--clr-gray-600);
+  font-size: var(--fs-300);
+}
+
+.breadcrumbs__item {
+  color: var(--clr-gray-650);
+  text-decoration: none;
+}
+
+.breadcrumbs__item:hover {
+  color: var(--clr-primary-700);
+}
+
+.breadcrumbs__separator {
+  color: var(--clr-gray-500);
+  font-size: 0.75rem;
+}
+
+.breadcrumbs__active {
+  color: var(--clr-gray-800);
+  font-weight: 600;
+}
+
+.top-bar__right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.user-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  background: var(--gradient-main);
+  color: var(--clr-white);
+  font-size: var(--fs-300);
+  font-weight: 700;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  color: var(--clr-gray-800);
+  font-size: var(--fs-300);
+  font-weight: 600;
+}
+
+.user-role {
+  color: var(--clr-gray-500);
+  font-size: 0.75rem;
+  text-transform: capitalize;
+}
+
+.logout-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border: 1px solid var(--clr-gray-250);
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--clr-gray-600);
+  transition: all 0.15s ease-in-out;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: var(--clr-red-50);
+  border-color: var(--clr-red-200);
+  color: var(--clr-red-600);
+}

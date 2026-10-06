@@ -1,0 +1,22 @@
+:host {
+  display: inline-block;
+}
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+}
+
+.brand-icon {
+  flex-shrink: 0;
+}
+
+.brand-text {
+  color: var(--clr-gray-800);
+  font-size: var(--fs-500);
+  font-weight: 700;
+  font-family: var(--ff-heading), sans-serif;
+  letter-spacing: -0.02em;
+}
